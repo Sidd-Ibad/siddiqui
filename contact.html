@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .contact-div-container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .form-container{
+            width: 500px;
+        }
+        /* .form-control{
+            width: 700px;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success p-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./logo.png" alt="" width="150px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <h1>Contact us</h1>
+    <div class="contact-div-container">
+    <div class="form-container">
+        <form action="#">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Fname</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">CNIC</label>
+                <input type="tel" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contact</label>
+                <input type="tel" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck">
+                <label class="form-check-label" for="exampleCheck">Our inforformation are geniune</label>
+                
+               
+               
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Based on true history</label>
+            </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                <label class="form-check-label" for="exampleCheck2">Have you satisfied with our blog</label>
+            </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                <label class="form-check-label" for="exampleCheck3">Will you visit again for another information</label>
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </div>
+    <div class="div-map">
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2921.2018146259356!2d-81.19458812531677!3d42.93187209878698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef36cbab00001%3A0xafda1053ae442663!2sMuslimfest!5e0!3m2!1sen!2s!4v1726090446191!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div><br><br>
+        <div>
+            <h2>our contact info:</h2>
+            <h4>0312-580948593</h4>
+            <h4>0343-275902-242</h4>
+            <h4>023-275902-242</h4>
+            <h4>muslimfest443@gmail.com</h4>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+
+    <footer class="bg-success text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="https://web.facebook.com/MuslimFest/?_rdc=1&_rdr"
+              role="button"
+              ><i class="fab fa-facebook"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="https://www.instagram.com/muslimfest/?hl=en"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="https://www.linkedin.com/company/muslimfest-com/?originalSubdomain=ca"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="https://github.com/derysudrajat/alif-muslim-app"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2020 Copyright:
+            <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
